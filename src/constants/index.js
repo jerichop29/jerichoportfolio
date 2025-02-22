@@ -172,7 +172,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "computer-vision",
+        name: "tensorflow lite",
         color: "orange-text-gradient",
       },
       {
@@ -186,7 +186,7 @@ const projects = [
   {
     name: "Mercado De Calamba",
     description:
-      "Mercado de Calamba is a smart stall management platform that helps administrators oversee rentals, track payments, and manage vendors using automation. It improves efficiency, ensures transparency, and enhances the overall market experience. 🏪",
+      "Mercado de Calamba is a smart stall management platform that helps administrators oversee rentals, track stall information, and manage vendors. It improves efficiency, transparency, and enhances the market experience with 3D mapping for better visualization. 🏪",
     tags: [
       {
         name: "react",
@@ -205,7 +205,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "scss.js",
+        name: "scss",
         color: "blue-text-gradient",
       },
       {
@@ -315,7 +315,7 @@ const projects = [
   {
     name: "Vista Visual Studio",
     description:
-      "Vista is a pure UI design project for Technopreneurship that focuses on creating intuitive and visually appealing interfaces while enhancing user experience.",
+      "Vista is a pure UI design project for my school subject technopreneur that focuses on creating intuitive and visually appealing interfaces.",
     tags: [
       {
         name: "html",
@@ -336,7 +336,7 @@ const projects = [
   {
     name: "Logo using Gimpp",
     description:
-      "Digital Art Logo is a creative design project using GIMP to craft unique and visually striking logos with professional detailing and precision.",
+      "Making creative Digital Art Logo project for graphic design subject using GIMP to craft unique and visually striking logos with professional detailing and precision.",
     tags: [
       {
         name: "gimpp",
@@ -349,7 +349,7 @@ const projects = [
   {
     name: "Digital Art using Gimpp",
     description:
-      "Digital Art – Apples is a digital drawing project using GIMP that showcases realistic apple illustrations with shading, texture, and depth.",
+      "Creating a Digital Art Drawing project using GIMP that showcases realistic apple illustrations with detailed shading, rich texture, and enhanced depth.",
     tags: [
       {
         name: "gimpp",
