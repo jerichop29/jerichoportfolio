@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, youtube, netlify, drive, googleCollab} from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -14,10 +14,26 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
+  links,
 }) => {
+  
+   // Map platform names to their respective icons
+   const platformIcons = {
+    GitHub: github,
+    YouTube: youtube,
+    Netlify: netlify,
+    Drive: drive,
+    GoogleCollab: googleCollab
+    // Add more platforms as needed
+  };
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+        variants={fadeIn("up", "spring", index * 0.15, 0.75)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.05 }} // Adjust `amount` as needed
+      >
       <Tilt
         options={{
           max: 45,
@@ -34,16 +50,19 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            {links.map((link, index) => (
+              <div
+                key={index}
+                onClick={() => window.open(link.url, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
+              >
+                <img
+                  src={platformIcons[link.name]} // Dynamically select the icon based on the link name
+                  alt={link.name}
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            ))}
           </div>
         </div>
 
@@ -78,6 +97,9 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.05 }}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through

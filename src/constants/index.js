@@ -10,9 +10,6 @@ import {
   reactjs,
   tailwind,
   git,
-  carrent,
-  jobit,
-  tripguide,
   bootstrap,
   python,
   flutter,
@@ -29,7 +26,17 @@ import {
   spamClassifier,
   mercado,
   vista,
-  sanJose,
+  resortReservation1,
+  lms,
+  portfolio1,
+  portfolio2,
+  graphicsDesign1,
+  graphicsDesign2,
+  graphicsDesign3,
+  visualProgramming,
+  mobileLogin,
+  assembly,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -157,7 +164,7 @@ const projects = [
   {
     name: "NutriPro",
     description:
-      "NutriPro is a smart nutrition analysis and food quality assessment platform that helps users evaluate the freshness, quality, and nutritional value of food items using AI and computer vision. It provides real-time insights to support healthier choices and reduce food waste. 🥦",
+      "NutriPro is a smart nutrition analysis and vegetable quality assessment platform that helps users evaluate the freshness, quality, and nutritional value of vegetable items using AI and computer vision. It provides real-time insights to support healthier choices and reduce food waste. 🥦",
     tags: [
       {
         name: "flutter",
@@ -181,7 +188,16 @@ const projects = [
       },
     ],
     image: nutripro,
-    source_code_link: "https://github.com/jerichop29/NutriPro",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/NutriPro",
+      },
+      {
+        name: "YouTube",
+        url: "https://www.youtube.com/watch?v=oLDTqzYLxDo&t=14s",
+      },
+    ],
   },
   {
     name: "Mercado De Calamba",
@@ -215,6 +231,12 @@ const projects = [
     ],
     image: mercado,
     source_code_link: "https://github.com/jerichop29/mercado",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/mercado",
+      },
+    ],
   },
   {
     name: "Maxima Resort",
@@ -247,12 +269,17 @@ const projects = [
       },
     ],
     image: resortReservation,
-    source_code_link: "https://github.com/jerichop29/maxima",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/maxima",
+      },
+    ],
   },
   {
-    name: "San Jose Resort",
+    name: "Resort Reservation",
     description:
-      "San Jose Resort is a comprehensive reservation platform that allows guests to book rooms, amenities, and events while ensuring a seamless and convenient stay.",
+      "Resort Reservation is a comprehensive reservation platform that allows guests to book rooms, amenities, and events while ensuring a seamless and convenient stay.",
     tags: [
       {
         name: "javascript",
@@ -267,8 +294,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sanJose,
-    source_code_link: "https://github.com/jerichop29/San-Jose-RMS",
+    image: resortReservation1,
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/San-Jose-RMS",
+      },
+    ],
   },
   {
     name: "Hotel Reservation",
@@ -289,7 +321,12 @@ const projects = [
       },
     ],
     image: hotelReservation,
-    source_code_link: "https://github.com/jerichop29/Hotel-Reservation",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/Hotel-Reservation",
+      },
+    ],
   },
   {
     name: "Spam Classifier",
@@ -310,7 +347,16 @@ const projects = [
       },
     ],
     image: spamClassifier,
-    source_code_link: "https://github.com/jerichop29/spam-classifier",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/spam-classifier",
+      },
+      {
+        name: "YouTube",
+        url: "https://www.youtube.com/watch?v=yYMLy_TMg5A&t=1s",
+      },
+    ],
   },
   {
     name: "Vista Visual Studio",
@@ -331,33 +377,251 @@ const projects = [
       },
     ],
     image: vista,
-    source_code_link: "https://github.com/jerichop29/Vista",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/Vista",
+      },
+    ],
   },
   {
-    name: "Logo using Gimpp",
+    name: "Logo using Gimp",
     description:
       "Making creative Digital Art Logo project for graphic design subject using GIMP to craft unique and visually striking logos with professional detailing and precision.",
     tags: [
       {
-        name: "gimpp",
+        name: "gimp",
         color: "blue-text-gradient",
       },
     ],
     image: digitalArtLogo,
-    source_code_link: "https://github.com/jerichop29",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/",
+      },
+    ],
+    
   },
   {
-    name: "Digital Art using Gimpp",
+    name: "Digital Art using Gimp",
     description:
       "Creating a Digital Art Drawing project using GIMP that showcases realistic apple illustrations with detailed shading, rich texture, and enhanced depth.",
     tags: [
       {
-        name: "gimpp",
+        name: "gimp",
         color: "blue-text-gradient",
       },
     ],
     image: digitalArt,
-    source_code_link: "https://github.com/jerichop29",
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/",
+      },
+    ],
+  },
+  {
+    name: "LMS",
+    description:
+      "A learning platform that offers courses, quizzes, and progress tracking.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: lms,
+    links: [
+      {
+        name: "GitHub",
+        url: "https://github.com/jerichop29/lms-design",
+      },
+    ],
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A personal site showcasing projects, skills, and achievements",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio1,
+    links: [
+      {
+        name: "GitHub",
+        url: "https://jerichop29.github.io/Jericho-Portfolio/",
+      },
+      {
+        name: "Netlify",
+        url: "https://pechojericho.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A creative display of work, experience, and expertise.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio2,
+    links: [
+      {
+        name: "Netlify",
+        url: "https://myportfoliojp.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "Graph using matplotlib",
+    description:
+      "A visual representation of data using Python’s Matplotlib library.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-collab",
+        color: "green-text-gradient",
+      },
+      {
+        name: "matplotlib",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: visualProgramming,
+    links: [
+      {
+        name: "GoogleCollab",
+        url: "https://colab.research.google.com/drive/1qL16on4-tIkbuQ-e1WQHJLNQ1B0AETZ4?usp=sharing&fbclid=IwY2xjawIne-xleHRuA2FlbQIxMAABHeDE3XljUvZMG7uBh-z_B8xEvv5AD1yp_dlEyt6ALIN1ou-1dXMD64hQuw_aem_-V23MHXaK6iomcQKr6OSKg#scrollTo=d_x5XvLE-9nk",
+      },
+    ],
+  },
+  {
+    name: "Drawing into Digital",
+    description:
+      "A cartoon sketch made in GIMP using digital tools.",
+    tags: [
+      {
+        name: "gimp",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: graphicsDesign1,
+    links: [
+      {
+        name: "Drive",
+        url: "https://drive.google.com/file/d/19UGpBLFF5TF7qzP7uRXjOIE9TojDsIdr/view?usp=sharing",
+      },
+    ],
+  },
+  {
+    name: "Mobile App Login",
+    description:
+      "A secure authentication system for accessing mobile applications.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dart",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mobileLogin,
+    links: [
+      {
+        name: "Drive",
+        url: "https://drive.google.com/drive/folders/1SL7psvR6aJtJcujPk6l_aOzLKJEaLVQz?usp=sharing",
+      },
+    ],
+  },
+  {
+    name: "Assembly Language Art",
+    description:
+      "A pixel-style Pikachu drawn using assembly code.",
+    tags: [
+      {
+        name: "assembly language",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "doxbox",
+        color: "green-text-gradient",
+      },
+    ],
+    image: assembly,
+    links: [
+      {
+        name: "Drive",
+        url: "https://drive.google.com/file/d/1AZUzj60iXr3aAKjHd7rVsEge2u98zEBg/view?usp=sharing",
+      },
+    ],
+  },
+  {
+    name: "Digital Art Bugs Bunney",
+    description:
+      "A stylized digital illustration of the classic Bugs Bunny character.",
+    tags: [
+      {
+        name: "gimp",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: graphicsDesign2,
+    links: [
+    ],
+  },
+  {
+    name: "Digital Art Hallway",
+    description:
+      "A detailed digital painting of a school hallway scene.",
+    tags: [
+      {
+        name: "gimp",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: graphicsDesign3,
+    links: [
+    ],
   },
 ];
 

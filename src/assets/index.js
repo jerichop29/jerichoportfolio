@@ -5,6 +5,10 @@ import computerVision from "./overview/computer_vision.png";
 import mobile from "./overview/mobile.png";
 import web from "./overview/web.png";
 import github from "./github.png";
+import youtube from "./youtube.png"
+import netlify from "./netlify.svg"
+import googleCollab from "./google_collab.png"
+import drive from "./drive.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,9 +30,6 @@ import python from "./tech/python.png"
 import website from "./company/website.png";
 import freelance from "./company/freelance.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import digitalArt from "./projects/digital_art.jpg"
 import digitalArtLogo from "./projects/digital_art_logo.jpg"
 import hotelReservation from "./projects/hotel_reservation.jpg"
@@ -37,11 +38,27 @@ import resortReservation from "./projects/resort_reservation.jpg"
 import spamClassifier from "./projects/spam_classifier.jpg"
 import mercado from "./projects/mercado.png"
 import vista from "./projects/vista.png"
-import sanJose from "./projects/san_jose.png"
+import resortReservation1 from "./projects/resort_reservation1.png"
+import lms from "./projects/lms.png"
+import portfolio1 from "./projects/portfolio1.png"
+import portfolio2 from "./projects/portfolio2.png"
+import visualProgramming from "./projects/visual_programming.png"
+import graphicsDesign1 from "./projects/graphics_design1.png"
+import mobileLogin from "./projects/mobile_login.jpg"
+import assembly from "./projects/assembly.png"
+import graphicsDesign2 from "./projects/graphics_design2.png"
+import graphicsDesign3 from "./projects/graphics_design3.png"
 
 export {
+  googleCollab,
+  assembly,
+  visualProgramming,
+  graphicsDesign3,
+  graphicsDesign2,
+  graphicsDesign1,
+  mobileLogin,
   vista,
-  sanJose,
+  resortReservation1,
   mercado,
   digitalArtLogo,
   digitalArt,
@@ -58,6 +75,9 @@ export {
   website,
   freelance,
   github,
+  netlify,
+  youtube,
+  drive,
   menu,
   close,
   css,
@@ -74,7 +94,7 @@ export {
   dart,
   python,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  lms,
+  portfolio1,
+  portfolio2
 };
