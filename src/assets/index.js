@@ -12,6 +12,9 @@ import drive from "./drive.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import resumeImage from "./resume/resume.png"
+import resumeCopy from "./resume/resume.pdf"
+
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -50,6 +53,8 @@ import graphicsDesign2 from "./projects/graphics_design2.png"
 import graphicsDesign3 from "./projects/graphics_design3.png"
 
 export {
+  resumeCopy,
+  resumeImage,
   googleCollab,
   assembly,
   visualProgramming,

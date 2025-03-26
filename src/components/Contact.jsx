@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaInstagram, FaFacebook, FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa"; // Import icons
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -87,7 +88,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -98,7 +99,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -114,12 +115,33 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex items-center gap-4 justify-between">
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+
+            {/* Social Media Icons */}
+            <div className="flex gap-4">
+              <a href="https://www.instagram.com/jericho.p29/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-white text-2xl hover:text-pink-400 transition-colors" />
+              </a>
+              <a href="https://www.facebook.com/jericho.pecho.2024" target="_blank" rel="noopener noreferrer">
+                <FaFacebook className="text-white text-2xl hover:text-blue-700 transition-colors" />
+              </a>
+              <a href="https://www.linkedin.com/in/jericho-pecho-608412332/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-white text-2xl hover:text-blue-500 transition-colors" />
+              </a>
+              <a href="https://github.com/jerichop29" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-white text-2xl hover:text-purple-400 transition-colors" />
+              </a>
+              <a href="https://www.youtube.com/@JerichoDevWorks" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className="text-white text-2xl hover:text-red-600 transition-colors" />
+              </a>
+            </div>
+          </div>
         </form>
       </motion.div>
 
