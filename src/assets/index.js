@@ -36,20 +36,20 @@ import freelance from "./company/freelance.png";
 import digitalArt from "./projects/digital_art.jpg"
 import digitalArtLogo from "./projects/digital_art_logo.jpg"
 import hotelReservation from "./projects/hotel_reservation.jpg"
-import nutripro from "./projects/nutripro.PNG"
+import nutripro from "./projects/nutripro.png"
 import resortReservation from "./projects/resort_reservation.jpg"
 import spamClassifier from "./projects/spam_classifier.jpg"
-import mercado from "./projects/mercado.PNG"
-import vista from "./projects/vista.PNG"
-import resortReservation1 from "./projects/resort_reservation1.PNG"
+import mercado from "./projects/mercado.png"
+import vista from "./projects/vista.png"
+import resortReservation1 from "./projects/resort_reservation1.png"
 import lms from "./projects/lms.png"
-import portfolio1 from "./projects/portfolio1.PNG"
-import portfolio2 from "./projects/portfolio2.PNG"
-import visualProgramming from "./projects/visual_programming.PNG"
-import graphicsDesign1 from "./projects/graphics_design1.PNG"
-import mobileLogin from "./projects/mobile_login.JPG"
-import assembly from "./projects/assembly.PNG"
-import graphicsDesign2 from "./projects/graphics_design2.PNG"
+import portfolio1 from "./projects/portfolio1.png"
+import portfolio2 from "./projects/portfolio2.png"
+import visualProgramming from "./projects/visual_programming.png"
+import graphicsDesign1 from "./projects/graphics_design1.png"
+import mobileLogin from "./projects/mobile_login.jpg"
+import assembly from "./projects/assembly.png"
+import graphicsDesign2 from "./projects/graphics_design2.png"
 import graphicsDesign3 from "./projects/graphics_design3.png"
 
 export {
@@ -103,4 +103,3 @@ export {
   portfolio1,
   portfolio2
 };
-
