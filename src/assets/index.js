@@ -48,7 +48,7 @@ import portfolio2 from "./projects/portfolio2.PNG"
 import visualProgramming from "./projects/visual_programming.PNG"
 import graphicsDesign1 from "./projects/graphics_design1.PNG"
 import mobileLogin from "./projects/mobile_login.JPG"
-import assembly from "./projects/assembly.png"
+import assembly from "./projects/assembly.PNG"
 import graphicsDesign2 from "./projects/graphics_design2.PNG"
 import graphicsDesign3 from "./projects/graphics_design3.png"
 
