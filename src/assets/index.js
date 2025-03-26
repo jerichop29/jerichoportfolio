@@ -36,7 +36,7 @@ import freelance from "./company/freelance.png";
 import digitalArt from "./projects/digital_art.jpg"
 import digitalArtLogo from "./projects/digital_art_logo.jpg"
 import hotelReservation from "./projects/hotel_reservation.jpg"
-import nutripro from "./projects/nutripro.png"
+import nutripro from "./projects/nutripro.PNG"
 import resortReservation from "./projects/resort_reservation.jpg"
 import spamClassifier from "./projects/spam_classifier.jpg"
 import mercado from "./projects/mercado.png"
